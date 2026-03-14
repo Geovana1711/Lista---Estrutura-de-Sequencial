@@ -1,0 +1,6 @@
+#Multiplicações
+num1, num2, num_real = map(int, input("Me fale 2 números inteiros e um real ").split())
+conta_a = (num1*2)*((num2)/2)
+conta_b = (num1*3) + num_real
+conta_c = num_real**3
+print(f"O resultado das contas ficaram : conta a = {conta_a} - conta b = {conta_b} - conta c = {conta_c}")
