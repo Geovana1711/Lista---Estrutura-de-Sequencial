@@ -1,0 +1,3 @@
+nota1, nota2, nota3, nota4 = map(int, input("Me diga as suas notas bimestrais ").split())
+media = (nota1+nota2+nota3+nota4)/4
+print(f"A média do semestre foi {media}")
