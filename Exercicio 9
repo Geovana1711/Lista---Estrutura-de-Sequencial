@@ -1,0 +1,4 @@
+#Troca de medidas - Fahrenheit e Celsius
+fahrenheit = float(input("Diga a fahrenheit e irei converter para celsius "))
+convercao = 5 *((fahrenheit - 32)/9)
+print(f"O valor é de {convercao}")
