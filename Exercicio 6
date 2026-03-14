@@ -1,0 +1,4 @@
+# Calcule a área dop circulo
+raio = float(input("Diga o raio do circulo"))
+calculo= 3.14 * (raio**2)
+print(f"O área é {calculo}")
