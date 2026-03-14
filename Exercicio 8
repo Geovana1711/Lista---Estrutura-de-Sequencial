@@ -1,0 +1,4 @@
+#Salario
+horas, valor_da_hora = map(int, input("Quantas horas você trabalha? E quanto é a sua hora? ").split())
+salario = horas * valor_da_hora
+print(f"O seu salário é de {salario}")
