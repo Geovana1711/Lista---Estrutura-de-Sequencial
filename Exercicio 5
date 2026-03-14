@@ -1,0 +1,4 @@
+# converção de metros em centimetros
+metros = int(input("Diga um número e converterei em centímentros "))
+centimentros = metros * 100
+print(centimentros)
