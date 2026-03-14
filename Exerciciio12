@@ -1,0 +1,4 @@
+#Gigabytes
+giga = int(input("Diga um valor em gigabytes e converterei para Megabytes "))
+megabytes = giga * 1024
+print(f"O valor é {megabytes}")
