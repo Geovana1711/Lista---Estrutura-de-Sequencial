@@ -1,0 +1,5 @@
+#calcula  salario liquido
+salario_bruto = float(input("Me diga o seu salário "))
+desconto = (salario_bruto * 0.11 ) + (salario_bruto * 0.08) + (salario_bruto * 0.05)
+salario_liquido = salario_bruto - desconto
+print(f"Com os descontos {salario_liquido}")
