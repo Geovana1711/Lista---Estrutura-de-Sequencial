@@ -1,0 +1,6 @@
+#loja de tintas
+qtd_latas = int(input("Quantas latas de tinta você gostaria? "))
+valor = 80
+litros = 18
+uma_lata_cobre = 54
+print(f"Você pediu {qtd_latas}, custará {valor * qtd_latas}, terá {litros * qtd_latas} litros e cubrirá {qtd_latas * uma_lata_cobre} m² ")
