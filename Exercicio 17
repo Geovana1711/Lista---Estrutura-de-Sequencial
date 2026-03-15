@@ -1,0 +1,12 @@
+#Versão avançada
+import math # importar da biblioteca a função math para arredondar para cima
+area = float(input("Você irá pintar uma área de quantos m²? "))
+#1 litro = 6m² - 1 lata = 18l e 108 m² e 80 reais  - 1 galão = 3,6 e 21,6m² e 25 reais
+area_folga = area * 1.10
+litros = int(area_folga / 6 )# 1 litro = 6 m² , portanto area/6 =  litros
+quantidade_latas = int(litros // 18)
+litros_restantes = litros / 18
+quantidade_galoes = math.ceil(litros_restantes / 3.6) #math.ceil arredonda para cima *2 
+preco_total = (quantidade_latas * 80 ) + (quantidade_galoes * 25)
+print(quantidade_galoes,  quantidade_latas)
+print(f"O preço será de R${preco_total},00")
