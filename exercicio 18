@@ -1,0 +1,5 @@
+#Download
+tamanho_mb, velocidade = map(float, input("Qual é o tamanho do seu arquivo(em MG) ").split())
+tamanho_bits = tamanho_mb * 8 
+tempo = tamanho_bits / velocidade
+print(f"Demorará {(tempo / 60) : 2f} minutos")
